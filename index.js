@@ -7,12 +7,5 @@ function doToElementsInArray(array, callback){
 // Add your changeCompletely() function here:
 
 function changeCompletely(element, index, array) {
-  array[index] = `${array[index]}s!!!`;
+  array[index] = `${array[index]}s!`;
 }
-
-// var animals = ["dog", "cat", "squirrel"];
-
-doToElementsInArray(animals, changeCompletely);
-
-// log out animals -- pretty cool, right?
-console.log(animals);
